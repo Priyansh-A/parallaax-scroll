@@ -10,9 +10,7 @@
 
 body{
     background: linear-gradient(#2b1055,#7597de);
-    max-height:100vh;
     background-repeat: no-repeat;
-    position: relative;
 }
 
 
@@ -22,9 +20,6 @@ section{
     height:100vh;
     padding:100px;
     overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 section img{
@@ -32,8 +27,7 @@ section img{
     top: 10%;
     left: 0;
     width:100%;
-    object-fit: contain;
-    overflow: hidden;
+    object-fit:contain;
 }
 
 #moon{
@@ -59,8 +53,7 @@ section img{
 }
 
 .text{
-    padding-top: 1rem;
+
     background-color: rgba(94, 13, 245, 0.86);
     z-index: 10;
-    position: relative;
 }
